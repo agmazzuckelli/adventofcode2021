@@ -6,9 +6,7 @@ def main():
         for line in input:
             input_list.append(int(line.rstrip()))
 
-
     def count_increases(heights):
-
         higher_than_previous = 0
         for i in range(1, len(input_list)):
             if heights[i] > heights[i-1]:
