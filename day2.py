@@ -2,7 +2,7 @@ def main():
 
     day2_command_list = []
 
-    with open('./day2input.txt', 'r') as input:
+    with open('./inputs/day2input.txt', 'r') as input:
         for line in input:
             day2_command_list.append(line.rstrip())
     

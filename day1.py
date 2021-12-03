@@ -2,7 +2,7 @@ def main():
 
     input_list = []
 
-    with open('day1input.txt', 'r') as input:
+    with open('./inputs/day1input.txt', 'r') as input:
         for line in input:
             input_list.append(int(line.rstrip()))
 
